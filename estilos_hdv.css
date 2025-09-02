@@ -1,0 +1,159 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdf2f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.cv-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  border: 3px solid #f9c8d9;
+  position: relative;
+}
+
+
+.cv-container::before,
+.cv-container::after {
+  content: '';
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #fce4ec;
+  border-radius: 50%;
+  z-index: 0;
+  opacity: 0.4;
+}
+
+.cv-container::before {
+  top: -50px;
+  left: -50px;
+}
+
+.cv-container::after {
+  bottom: -60px;
+  right: -60px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #f9c8d9, #f7a7be);
+  color: #fff;
+  padding: 30px 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.photo-space {
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 25px;
+  border: 3px solid #f7a7be;
+  background-image: url(https://lh3.googleusercontent.com/pw/AP1GczMzLHqpxORqy61eLJvFtwrCFPsEo6FxIbUxHuwdQezxdLegxiFl02zirwcjC1-L_2PgSGrK1_SkAc83X1FY9oNeu5ZN5OPCNWbc2kDj-YtZnWbOTtjMyXPikR7bvaaVTn1rAJdZfviKuhT7tAIGQeHQ=w1170-h2080-s-no-gm?authuser=0); 
+  background-size: cover;
+  background-position: center;
+}
+
+.info h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.info p {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+.section {
+  padding: 25px 20px;
+  border-top: 2px solid #fce4ec;
+  position: relative;
+  z-index: 1;
+}
+
+.section h2 {
+  color: #e91e63;
+  margin-bottom: 12px;
+  font-size: 22px;
+  border-bottom: 2px solid #f8bbd0;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.section ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.section ul li {
+  margin-bottom: 8px;
+}
+
+.section p {
+  margin: 0;
+}
+
+
+.decorative-shape {
+  position: absolute;
+  background: #f8bbd0;
+  border-radius: 50%;
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.shape-1 {
+  width: 120px;
+  height: 120px;
+  top: 20%;
+  left: -40px;
+}
+
+.shape-2 {
+  width: 100px;
+  height: 100px;
+  bottom: 15%;
+  right: -30px;
+}
+
+.shape-3 {
+  width: 80px;
+  height: 80px;
+  top: 70%;
+  left: 60%;
+}
+
+
+.flower-shape {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.flower-1 {
+  width: 250px;
+  height: 250px;
+  top: 5%;
+  right: -80px;
+  background-image: url("data:image/svg+xml;utf8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' fill='%23f8bbd0'/><circle cx='50' cy='20' r='15' fill='%23f48fb1'/><circle cx='20' cy='50' r='15' fill='%23f48fb1'/><circle cx='50' cy='80' r='15' fill='%23f48fb1'/><circle cx='80' cy='50' r='15' fill='%23f48fb1'/></svg>");
+}
+
+.flower-2 {
+  width: 220px;
+  height: 220px;
+  bottom: 10%;
+  left: -70px;
+  background-image: url("data:image/svg+xml;utf8,<svg width='100' he
